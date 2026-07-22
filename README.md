@@ -4,24 +4,20 @@ Official user and developer documentation for LAODENG UNIVERSE.
 
 This repository provides guides for connecting wallets, using the network, transferring LDU, running nodes, and developing applications on LAODENG UNIVERSE.
 
-## Documentation
+## Quick Start
 
-### User Guides
+- [Add LAODENG Universe to a Wallet](guides/add-network-to-wallet.md)
+- [Receive and Transfer LDU](guides/receive-and-transfer-ldu.md)
+- [Use the Block Explorer](guides/use-block-explorer.md)
+- [Understand Network Fees](guides/understand-network-fees.md)
+- [Wallet Security](guides/wallet-security.md)
+- [Frequently Asked Questions](guides/faq.md)
 
-- Add LAODENG UNIVERSE to a wallet
-- Receive and transfer LDU
-- View transactions on the block explorer
-- Understand network fees
-- Protect private keys and seed phrases
+## Developer Documentation
 
-### Developer Guides
-
-- Network and RPC configuration
-- Smart contract deployment
-- Web3 application integration
-- Node and validator deployment
-- Mainnet and testnet parameters
-- Network upgrade notices
+- [Network and RPC Configuration](developers/network-rpc-configuration.md)
+- [Deploy Smart Contracts](developers/deploy-smart-contracts.md)
+- [Web3 Application Integration](developers/web3-integration.md)
 
 ## Network Information
 
@@ -57,29 +53,3 @@ Only use network information published through the official website and GitHub o
 Never share your private key or seed phrase with anyone.
 
 LAODENG UNIVERSE representatives will never privately request your wallet credentials.
-
-## Add LAODENG Universe to Your Wallet
-
-Use these network parameters in an EVM-compatible wallet:
-
-```text
-Network Name: LAODENG Universe
-RPC URL: https://rpc.laodeng.org
-Chain ID: 20260001
-Currency Symbol: LDU
-Block Explorer URL: https://scan.laodeng.org
-```
-
-## Manual Setup
-
-1. Open your wallet.
-2. Go to network settings.
-3. Select **Add network manually**.
-4. Enter the official LAODENG Universe network information.
-5. Save the network.
-6. Switch to **LAODENG Universe**.
-
-Always verify the following official addresses:
-
-- RPC URL: `https://rpc.laodeng.org`
-- Block Explorer: `https://scan.laodeng.org`
